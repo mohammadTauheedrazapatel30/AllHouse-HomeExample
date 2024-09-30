@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #8BC349;
+    color: white;
+    padding: 10px 0;
+}
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.social-icons {
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 20px;
+    background-color: #8BC349;
+}
+
+.top-links a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.main {
+    background-image: url("../image/SliderImage.png");
+    /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    position: relative;
+    /* Important for absolute positioning */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.top-sale {
+    background-color: #006837;
+    /* Matches the header color */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    /* Spacing between letters */
+    text-transform: uppercase;
+}
+
+.context {
+    width: 533px;
+    height: 216.32px;
+    top: 242px;
+    left: 693px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+button {
+    background-color: #8BC349;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 8px 2px;
+    cursor: pointer;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.nav-links {
+    list-style-type: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.header-icons {
+    margin-right: 221px;
+}
+
+.viewall{
+   margin-right: 90px;   
+}
+
+.cards-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 50px;
+    flex-wrap: nowrap;
+}
+
+.cards img{
+    height: auto;
+    border-radius:10px;
+}
+
+.card-content {
+    overflow-inline: visible;
+}
+
+.overlay-text{
+    position: relative;
+    bottom: 274px; 
+    left: 20px;   
+    color: white;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.5); 
+    border-radius: 5px;
+    margin-left: 50px;
+    font-family: sans-serif;
+}
+
+.search{
+    font-variant-emoji:var('&#xf002;');
+}
+
+.text-detail{
+    margin-left: 30px;
+    text-wrap: wrap;
+    font-size: 15px;
+}
